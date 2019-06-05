@@ -1,0 +1,42 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+pageEncoding="utf-8"%>
+<%
+//获取当前左侧被选中的功能
+String curSelected = (String) request.getParameter("curSelected");
+%>
+
+
+<div class="left">
+    <div class="imgtext"><img src="css/images/myinfo.jpg" /><span class="font_bold_green">我的资料</span></div>
+    <dl>
+        <dt class='<%=curSelected.equals("myinfo") ? "selected" : "" %>' >
+            <a href="MyInfoClServlet?dowhat=queryMyInfo">个人信息</a>
+        </dt>
+        <dt class='<%=curSelected.equals("myaddress") ? "selected" : "" %>' >
+            <a href="myaddress_page.jsp">收货地址</a>
+        </dt>
+    </dl>
+
+    <div class="imgtext"><img src="css/images/mytrade.jpg" /><span class="font_bold_green">我的交易</span></div>
+    <dl>
+        <dt class='<%=curSelected.equals("myorder") ? "selected" : "" %>'>
+            <a href="MyOrderClServlet?dowhat=queryOrder&way=byPageFirst&pageCount=1&pageNow=1&pageFrom=1&pageTo=1">我的订单</a>
+        </dt>
+        <dt class='<%=curSelected.equals("mypaid") ? "selected" : "" %>' >
+            <a href="mypaid_page.jsp">我的账单</a>
+        </dt>
+    </dl>
+
+    <div class="imgtext"><img src="css/images/myshop.jpg" /><span class="font_bold_green">我的店铺</span></div>
+    <dl>
+        <dt class='<%=curSelected.equals("shopinfo") ? "selected" : "" %>'>
+            <a href="ShopInfoClServlet?dowhat=queryShopInfo">店铺信息</a>
+        </dt>
+        <dt class='<%=curSelected.equals("shopupload") ? "selected" : "" %>'>
+            <a href="ShopUploadClServlet?dowhat=firstIn">书籍发布</a>
+        </dt>
+        <dt class='<%=curSelected.equals("shopmanage") ? "selected" : "" %>' >
+            <a href="shopmanage_page.jsp">书籍管理</a>
+        </dt>
+    </dl>
+</div><!--left-->

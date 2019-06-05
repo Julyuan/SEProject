@@ -1,0 +1,81 @@
+{{/*<%@ page language="java" contentType="text/html; charset=utf-8"*/}}
+{{/*pageEncoding="utf-8"%>*/}}
+{{/*<%@page import="com.chicken.util.C"%>*/}}
+{{define "register_page"}}
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="/static/css/mystyle.css" type="text/css" rel="stylesheet">
+    <title>注册</title>
+    <script type="text/javascript" src="/static/js/checkRegisterInfo.js"></script>
+    <script type="text/javascript" src="/static/js/jquery/jquery.js"></script>
+</head>
+<body>
+{{/*<%*/}}
+{{/*//token标记*/}}
+{{/*session.setAttribute(C.REGISTER_TOKEN, true);*/}}
+
+{{/*//注册出错以后*/}}
+{{/*String username="";*/}}
+{{/*String password="";*/}}
+{{/*String tip="";*/}}
+
+{{/*if(request.getAttribute("result") != null) //用户名重复*/}}
+{{/*{*/}}
+{{/*tip="用户名已存在";*/}}
+{{/*password=(String)request.getAttribute("password");*/}}
+{{/*}*/}}
+{{/*%>*/}}
+
+
+<!-- 头部 -->
+{{template "title"}}
+<!-- 注册框-->
+
+<div class="regdiv1">
+    <div class="regdiv2">
+        <span class="font_bold_black">新用户注册</span>
+    </div>
+    <div class="regdiv3">
+        <div class="regdiv4">
+            <form method="post">
+                <label for="id_username">用户名</label>
+                <input type="text" placeholder="书丛号/手机/邮箱" class="tipedit" id="id_username" name="username"  autofocus="autofocus"><br>
+                <span class="tip font_normal_red" id="tip"></span><br> <!-- 用户名已存在提示 -->
+
+                <label for="id_password">密&nbsp;&nbsp;&nbsp;码</label>
+                <input type="password" placeholder="不少于6位" class="normaledit" id="id_password" name="password" value=""><br>
+
+
+                <label for="id_repassword">确&nbsp;&nbsp;&nbsp;认</label>
+                <input type="password" placeholder="再次输入上面的密码" class="normaledit" id="id_repassword" name="repassword" value=""><br>
+
+                {{/*<label for="id_captcha">验证码</label>*/}}
+                {{/*<input type="text" class="normaledit" id="id_captcha" name="captcha"><br>*/}}
+
+                <input type="checkbox" name="agree">我已阅读并同意<a href="#">《书丛网条款》</a><br><br>
+            </form>
+            <button class="greenbtn font_bold_white" id="register_button"
+                    onclick="true">立即注册</button>
+        </div>
+    </div>
+</div>
+
+<!-- 尾部-->
+{{template "footer"}}
+</body>
+<script>
+$("button#register_button").click(
+    function() {
+        alert("123");
+    $.post("/register/verify",
+            {username:$("#id_username").val(), password:$("#id_password").val()},
+            function (result) {
+            alert(result);
+           });
+});
+</script>
+</html>
+
+{{end}}

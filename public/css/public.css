@@ -1,0 +1,11 @@
+/*
+ * public.css	: css file that put all the other css files in
+ * author		: lmqt(lmqt890930@163.com)
+ * last_modify	: 2012-5-4 by lmqt(lmqt890930@163.com)
+ */
+@charset "utf-8";
+/* CSS Document */
+@import url(plugin.css);
+@import url(reset.css);
+@import url(index.css);
+@import url(layout.css);

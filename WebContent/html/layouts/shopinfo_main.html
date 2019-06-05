@@ -1,0 +1,85 @@
+<%@page import="com.chicken.model.ShopBean"%>
+<%@page import="com.chicken.util.C"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+pageEncoding="utf-8"%>
+
+<%
+ShopBean shopBean = (ShopBean) request.getAttribute("shopBean");
+int sid = (Integer) request.getAttribute("Sid"); //验证是否开店
+%>
+
+<div id="inner">
+
+    <!-- 左侧导航栏 -->
+    <jsp:include page="left.jsp" flush="true"><jsp:param name="curSelected" value="shopinfo" /></jsp:include>
+
+    <!-- 右侧内容 -->
+    <div class="right">
+
+        <%
+        if(sid == C.OPENED_SHOP_NO) //没有开店,显示“我要开店”按钮
+        {
+        %>
+        <div class="uploaddiv">
+            <a href="ShopInfoClServlet?dowhat=openShop" class="greenbutton" onclick="return window.confirm('您确定要开店?');">我要开店</a>
+        </div>
+        <%
+        }
+        else //已开店，显示店铺信息
+        {
+        %>
+        <div class="divline" style="font-size:15px;">店铺信息</div><!--divline-->
+        <div class="contentline" style="font-size:14px;"><br>
+
+            <form action="ShopInfoClServlet?dowhat=updateShopInfo" enctype="multipart/form-data" method="post">
+
+                <!-- 帐号信息 -->
+                <div class="title"><span>&nbsp;基本信息&nbsp;</span></div><br>
+                <hr class="titlehr">
+
+                <div class="uploaddivparent">
+
+                    <div class="uploaddiv">
+                        <img src="<%=shopBean.getSicon() %>?time=<%=Math.random() %>" style="width:50px;border: 2px solid #DCDCDC;"/>
+                    </div>
+
+                    <div class="uploaddiv">
+                        修改商标：&nbsp;&nbsp;<input type="file" name="icon">
+                    </div>
+
+                    <div class="uploaddiv">
+                        店&nbsp;&nbsp;铺&nbsp;&nbsp;名：&nbsp;&nbsp;<input type="text" name="shopname" onkeyup="updateLeftStrLength(this)" maxlength="25" autocomplete="off" class="editline" value="<%=shopBean.getSname() %>">&nbsp;&nbsp;<font>您还可以输入<span class="font_bold_green">25</span>个字</font>
+                    </div>
+
+                    <div class="uploaddiv">
+                        运&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;费：&nbsp;&nbsp;<input type="text" name="transprice" autocomplete="off" class="editline" style="width:7%;" value="<%=shopBean.getStransprice() %>">&nbsp;&nbsp;元/3本
+                    </div>
+                </div>
+
+                <!-- 选填信息 -->
+                <div class="title"><span>&nbsp;选填信息&nbsp;</span></div><br>
+                <hr class="titlehr">
+
+                <div class="uploaddivparent">
+
+                    <div class="uploaddiv">
+                        店铺活动：&nbsp;&nbsp;<input type="text" name="activity" onkeyup="updateLeftStrLength(this)" maxlength="50" autocomplete="off" autofocus="autofocus" class="editline" style="width:50%;" value="<%=shopBean.getSactivity() %>">&nbsp;&nbsp;<font>您还可以输入<span class="font_bold_green">50</span>个字</font>
+                    </div>
+
+                    <div class="uploaddiv">
+                        店铺简介：&nbsp;&nbsp;<font style="float:right;">您还可以输入<span class="font_bold_green">500</span>个字</font>
+                        <textarea class="editbox" style="width:100%;height:100px;" onkeyup="updateLeftStrLength(this)" maxlength="500" placeholder="给买家描述一下店铺有助于提升收益哦~" name="summary"><%=shopBean.getSsummary() %></textarea>
+                    </div>
+
+                    <div class="uploaddiv">
+                        <input type="submit" class="greenbutton" value="保存"  onclick="return checkShopInfoValidness();"/>
+                    </div>
+                </div>
+            </form>
+
+        </div><!--contentline-->
+        <%
+        }
+        %>
+    </div>
+</div>
