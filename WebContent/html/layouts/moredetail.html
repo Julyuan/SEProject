@@ -1,3 +1,4 @@
+{{define "moredetail"}}
 <%@page import="com.chicken.model.BookDetailBean"%>
 <%@page import="com.chicken.util.C"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
@@ -74,8 +75,8 @@ int bookTradeRecordPageCount=(Integer)request.getAttribute("bookTradeRecordPageC
 
 
 
-<script type="text/javascript" src="js/checkJumpPageInfo.js"></script>
-<script type="text/javascript" src="js/ajaxRequestOnTab.js"></script>
+<script type="text/javascript" src="/static/js/checkJumpPageInfo.js"></script>
+<script type="text/javascript" src="/static/js/ajaxRequestOnTab.js"></script>
 <script type="text/javascript">
 
     $(document).ready(function(){
@@ -96,3 +97,4 @@ int bookTradeRecordPageCount=(Integer)request.getAttribute("bookTradeRecordPageC
         $('#traderecord_a').click(function(){$("#traderecord_tab").trigger("click");});
     });
 </script>
+{{end}}

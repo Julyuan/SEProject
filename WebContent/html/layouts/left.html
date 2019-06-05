@@ -1,3 +1,4 @@
+{{define "left"}}
 <%@ page language="java" contentType="text/html; charset=utf-8"
 pageEncoding="utf-8"%>
 <%
@@ -7,7 +8,7 @@ String curSelected = (String) request.getParameter("curSelected");
 
 
 <div class="left">
-    <div class="imgtext"><img src="css/images/myinfo.jpg" /><span class="font_bold_green">我的资料</span></div>
+    <div class="imgtext"><img src="/static/css/images/myinfo.jpg" /><span class="font_bold_green">我的资料</span></div>
     <dl>
         <dt class='<%=curSelected.equals("myinfo") ? "selected" : "" %>' >
             <a href="MyInfoClServlet?dowhat=queryMyInfo">个人信息</a>
@@ -17,7 +18,7 @@ String curSelected = (String) request.getParameter("curSelected");
         </dt>
     </dl>
 
-    <div class="imgtext"><img src="css/images/mytrade.jpg" /><span class="font_bold_green">我的交易</span></div>
+    <div class="imgtext"><img src="/static/css/images/mytrade.jpg" /><span class="font_bold_green">我的交易</span></div>
     <dl>
         <dt class='<%=curSelected.equals("myorder") ? "selected" : "" %>'>
             <a href="MyOrderClServlet?dowhat=queryOrder&way=byPageFirst&pageCount=1&pageNow=1&pageFrom=1&pageTo=1">我的订单</a>
@@ -27,7 +28,7 @@ String curSelected = (String) request.getParameter("curSelected");
         </dt>
     </dl>
 
-    <div class="imgtext"><img src="css/images/myshop.jpg" /><span class="font_bold_green">我的店铺</span></div>
+    <div class="imgtext"><img src="/static/css/images/myshop.jpg" /><span class="font_bold_green">我的店铺</span></div>
     <dl>
         <dt class='<%=curSelected.equals("shopinfo") ? "selected" : "" %>'>
             <a href="ShopInfoClServlet?dowhat=queryShopInfo">店铺信息</a>
@@ -40,3 +41,4 @@ String curSelected = (String) request.getParameter("curSelected");
         </dt>
     </dl>
 </div><!--left-->
+{{end}}

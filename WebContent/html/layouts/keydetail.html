@@ -1,3 +1,4 @@
+{{define "keydetail"}}
 <%@page import="com.chicken.util.C"%>
 <%@page import="com.chicken.model.BookDetailBean"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
@@ -59,7 +60,7 @@ BookDetailBean bookDetailBean=(BookDetailBean)request.getAttribute("bookDetailBe
     <div class="childdiv">
 
         <!-- 价格部分 -->
-        <img src="css/images/price.png">
+        <img src="/static/css/images/price.png">
         <hr>
         <div class="partbg" style="height:170px;">
             <div>定&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<del>￥<%=bookDetailBean.getBoriprice() %></del></div>
@@ -69,7 +70,7 @@ BookDetailBean bookDetailBean=(BookDetailBean)request.getAttribute("bookDetailBe
         </div>
 
         <!-- 购买部分 -->
-        <img src="css/images/buy.png">
+        <img src="/static/css/images/buy.png">
         <hr>
         <div class="partbg" style="height:102px;">
             <a href="OrderClServlet?dowhat=buyatonce&Bid=<%=bookDetailBean.getBid()%>&Bimage=<%=bookDetailBean.getBimage() %>&Bprice=<%=bookDetailBean.getBprice()%>&Bname=<%=bookDetailBean.getBname()%>&Boriprice=<%=bookDetailBean.getBoriprice()%>&Sid=<%=bookDetailBean.getSid()%>&Sname=<%=bookDetailBean.getSname()%>&Sicon=<%=bookDetailBean.getSicon()%>&Tboughtnum=1" class="buyatoncebtn">立即购买</a>
@@ -77,3 +78,4 @@ BookDetailBean bookDetailBean=(BookDetailBean)request.getAttribute("bookDetailBe
         </div>
     </div>
 </div>
+{{end}}

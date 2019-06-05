@@ -1,3 +1,4 @@
+{{define "paysuccess_main"}}
 <%@ page language="java" contentType="text/html; charset=utf-8"
 pageEncoding="utf-8"%>
 <%
@@ -30,3 +31,4 @@ String result = (String) request.getAttribute("result");
         <a href='MyOrderClServlet?dowhat=queryOrder&way=byPageFirst&pageCount=1&pageNow=1&pageFrom=1&pageTo=1' class='greenbutton'>我的订单</a>
     </div>
 </div>
+{{end}}

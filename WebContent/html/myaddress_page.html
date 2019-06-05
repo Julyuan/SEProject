@@ -1,27 +1,28 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-pageEncoding="utf-8"%>
+{{define "myaddress_page"}}
+
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link href="css/mystyle.css" type="text/css" rel="stylesheet">
-    <script type="text/javascript" src="js/public.js"></script>
+    <link href="/static/css/mystyle.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="/static/js/public.js"></script>
     <title>收货地址</title>
 </head>
 <body>
 
 <!-- 导航条 -->
-<jsp:include page="layouts/navi.jsp" flush="true"/>
+{{template "navi"}}
 
 <!-- 头部 -->
-<jsp:include page="layouts/header.jsp" flush="true"/>
+{{template "header"}}
 
 <!-- 主体-->
-<jsp:include page="layouts/myaddress_main.jsp" flush="true"/>
+{{template "myaddress_main"}}
 
 <!-- 尾部-->
-<jsp:include page="layouts/footer.jsp" flush="true"/>
+{{template "footer"}}
 
-<script type="text/javascript" src="js/public.js"></script>
-<script type="text/javascript" src="js/writeorder_main.js"></script>
+<script type="text/javascript" src="/static/js/public.js"></script>
+<script type="text/javascript" src="/static/js/writeorder_main.js"></script>
 </body>
 </html>
+{{end}}

@@ -1,3 +1,4 @@
+{{define "myorder_main"}}
 <%@page import="com.chicken.model.BookInCartBean"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
 pageEncoding="utf-8"%>
@@ -152,3 +153,4 @@ List<OrderFormBean> orderList = (ArrayList<OrderFormBean>) request.getAttribute(
             <jsp:include page="myorder_pagebar.jsp" flush="true"/>
         </div>
     </div>
+{{end}}

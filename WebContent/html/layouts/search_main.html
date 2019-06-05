@@ -1,3 +1,4 @@
+{{define "search_main"}}
 <%@ page language="java" contentType="text/html; charset=utf-8"
 pageEncoding="utf-8"%>
 <%@page import="java.util.ArrayList"%>
@@ -17,15 +18,14 @@ ArrayList<BookSnapshotBean> bookSnapshotList=(ArrayList<BookSnapshotBean>)reques
     %>
     <div class="searchmain">
         <!-- 排序条+根据检索得到的pageCount，pageNow生成翻页块 -->
-        <jsp:include page="orderbar.jsp" flush="true"/>
-
+        {{template "orderbar"}}
         <!--书籍快照信息-->
-        <jsp:include page="searchshow.jsp" flush="true"/>
-
+        {{template "searchshow"}}
         <!-- 根据检索后得到的pageCount,pageNow,产生主分页 -->
-        <jsp:include page="search_pagebar.jsp" flush="true"/>
+        {{template "search_pagebar"}}
     </div>
     <%
     }
 
     %>
+{{end}}

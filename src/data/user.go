@@ -22,7 +22,7 @@ type Session struct {
 	Id     int
 	Uuid   string
 	Uemail  string
-	Uid int
+	Uid     int
 	CreatedAt  time.Time
 }
 
@@ -46,7 +46,7 @@ func (user *User) CreateSession()(session Session, err error){
 
 func (user *User) Session() (session Session, err error){
 	session = Session{}
-	err = Db.QueryRow("SELECT id, uuid, email, user_id, created_at FROM sessions WHERE user_id = $1", user.Uid).
+	err = Db.QueryRow("SELECT id, uuid, Uemail, Uid, created_at FROM sessions WHERE Uid = $1", user.Uid).
 		Scan(&session.Id, &session.Uuid, &session.Uemail, &session.Uid, &session.CreatedAt)
 	return
 }
@@ -54,7 +54,7 @@ func (user *User) Session() (session Session, err error){
 func (session *Session) Check()(valid bool, err error){
 	fmt.Println("call check function")
 	fmt.Println("uuid is equal to",session.Uuid)
-	err = Db.QueryRow("SELECT id, uuid, email, user_id, created_at FROM sessions WHERE uuid = $1", session.Uuid).
+	err = Db.QueryRow("SELECT id, uuid, Uemail, Uid, created_at FROM sessions WHERE Uuid = $1", session.Uuid).
 		Scan(&session.Id, &session.Uuid, &session.Uemail, &session.Uid, &session.CreatedAt)
 
 	if err != nil {
@@ -88,8 +88,8 @@ func(session *Session) DeleteByUUID()(err error){
 
 func (session *Session)User()(user User, err error){
 	user = User{}
-	err = Db.QueryRow("SELECT id, name, email FROM users WHERE id = $1", session.Uid).
-		Scan(&user.Uid, &user., &user.Uemail, &user.CreatedAt)
+	err = Db.QueryRow("SELECT Uid, Urealname, Uemail FROM user WHERE Uid = $1", session.Uid).
+		Scan(&user.Uid, &user.Urealname, &user.Uemail)
 	if(err != nil){
 		fmt.Println(err.Error())
 	}
@@ -104,9 +104,8 @@ func SessionDeleteAll()(err error){
 
 
 func (user *User) Create() (err error){
-
-	statement := "insert into users (uuid, name, email, password, created_at) values ($1, $2, "+
-		"$3, $4, $5) returning id, uuid, created_at"
+	statement := "insert into user (Uid, Upassword) values ($1, $2)"+
+		"returning Uid"
 
 	stmt, err := Db.Prepare(statement)
 	if err != nil{
@@ -115,51 +114,51 @@ func (user *User) Create() (err error){
 
 	defer stmt.Close()
 
-	err = stmt.QueryRow(createUUID(),user.Name,user.Email, Encrypt(user.Password), time.Now()).Scan(&user.Id, &user.Uuid, &user.CreatedAt)
+	err = stmt.QueryRow(user.Urealname,user.Upassword).Scan(&user.Uid)
 	return
 }
 
 
 func (user *User)Delete() (err error){
-	statement := "delete from users where id = $1"
+	statement := "delete from user where Uid = $1"
 	stmt, err := Db.Prepare(statement)
 	if err != nil{
 		return
 	}
 	defer stmt.Close()
 
-	_, err = stmt.Exec(user.Id)
+	_, err = stmt.Exec(user.Uid)
 	return
 }
 
 // Update user information in the database
 func (user *User) Update() (err error) {
-	statement := "update users set name = $2, email = $3 where id = $1"
+	statement := "update user set Ureadlname = $2, Uemail = $3 where Uid = $1"
 	stmt, err := Db.Prepare(statement)
 	if err != nil {
 		return
 	}
 	defer stmt.Close()
 
-	_, err = stmt.Exec(user.Id, user.Name, user.Email)
+	_, err = stmt.Exec(user.Uid, user.Urealname, user.Uemail)
 	return
 }
 
 func UserDeleteAll() (err error){
-	statement := "delete from users"
+	statement := "delete from user"
 	_, err = Db.Exec(statement)
 	return
 }
 
 func Users() (users []User, err error){
-	rows, err := Db.Query("SELECT id, uuid, name, email, password, created_at FROM users")
+	rows, err := Db.Query("SELECT id, uuid, name, email, password, created_at FROM user")
 	if err != nil{
 		return
 	}
 
 	for rows.Next(){
 		user := User{}
-		if err = rows.Scan(&user.Id, &user.Uuid, &user.Name, &user.Email, &user.Password, &user.CreatedAt); err != nil {
+		if err = rows.Scan(&user.Uid, &user.Urealname, &user.Uemail, &user.Upassword); err != nil {
 			return
 		}
 		users = append(users, user)
@@ -171,19 +170,19 @@ func Users() (users []User, err error){
 
 func UserByEmail(email string) (user User, err error){
 	fmt.Println("Call UserByEmail email = "+email)
-	statement := "SELECT id, uuid, name, email, password, created_at FROM "+
-		"users WHERE email = $1"
+	statement := "SELECT Uid,  Urealname, Uemail, Upassword FROM "+
+		"users WHERE Uemail = $1"
 	user = User{}
-	err = Db.QueryRow(statement, email).Scan(&user.Id, &user.Uuid, &user.Name,
-		&user.Email, &user.Password, &user.CreatedAt)
-	fmt.Println("username = "+user.Name)
+	err = Db.QueryRow(statement, email).Scan(&user.Uid, &user.Urealname,
+		&user.Uemail, &user.Upassword)
+	fmt.Println("username = "+user.Urealname)
 	return
 }
 
 // Get a single user given the UUID
-func UserByUUID(uuid string) (user User, err error) {
+func UserByUid(Uid string) (user User, err error) {
 	user = User{}
-	err = Db.QueryRow("SELECT id, uuid, name, email, password, created_at FROM users WHERE uuid = $1", uuid).
-		Scan(&user.Id, &user.Uuid, &user.Name, &user.Email, &user.Password, &user.CreatedAt)
+	err = Db.QueryRow("SELECT Uid, Urealname, Uemail, Upassword FROM users WHERE uuid = $1", Uid).
+		Scan(&user.Uid, &user.Urealname, &user.Uemail, &user.Upassword)
 	return
 }

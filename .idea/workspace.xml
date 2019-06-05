@@ -2,9 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab9305b7-0eee-4676-979f-f09ee96316ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/cart_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/cart_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/detail_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/detail_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/cart_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/cart_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/comment_facebox.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/comment_facebox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/detail_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/detail_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/howshow.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/hotshow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/keydetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/keydetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/left.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/left.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/locateorder_address.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/locateorder_address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/locateorder_comment_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/locateorder_comment_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/locateorder_finished_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/locateorder_finished_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/locateorder_pay_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/locateorder_pay_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/locateorder_receive_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/locateorder_receive_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/moredetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/moredetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/myaddress_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/myaddress_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/myinfo_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/myinfo_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/myorder_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/myorder_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/myorder_pagebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/myorder_pagebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/mypaid_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/mypaid_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/orderbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/orderbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/pay_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/pay_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/paysuccess_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/paysuccess_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/search_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/search_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/search_pagebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/search_pagebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/searchshow.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/searchshow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/shopinfo_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/shopinfo_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/shopmanage_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/shopmanage_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/shopupload_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/shopupload_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/step_bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/step_bar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/writeorder_addaddress.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/writeorder_addaddress.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/writeorder_address.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/writeorder_address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/writeorder_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/writeorder_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/writeorder_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/writeorder_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/layouts/writeorder_modifyaddress.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/layouts/writeorder_modifyaddress.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/locateorder_comment_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/locateorder_comment_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/locateorder_finished_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/locateorder_finished_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/locateorder_pay_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/locateorder_pay_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/locateorder_receive_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/locateorder_receive_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/login_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/login_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/myaddress_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/myaddress_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/myinfo_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/myinfo_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/myorder_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/myorder_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/mypaid_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/mypaid_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/pay_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/pay_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/paysuccess_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/paysuccess_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/search_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/search_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/shopinfo_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/shopinfo_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/shopmanage_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/shopmanage_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/shopupload_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/shopupload_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/writeorder_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/writeorder_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/setup.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/setup.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/route_auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/route_auth.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,26 +143,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="809" />
-          <entry key="html" value="620" />
+          <entry key="go" value="1612" />
+          <entry key="html" value="3001" />
           <entry key="md" value="30" />
-          <entry key="sql" value="326" />
+          <entry key="sql" value="327" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="809" />
-          <entry key="HTML" value="620" />
+          <entry key="Go" value="1612" />
+          <entry key="HTML" value="3001" />
           <entry key="PLAIN_TEXT" value="30" />
-          <entry key="SQL" value="326" />
+          <entry key="SQL" value="327" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
           <entry key="go" value="6" />
-          <entry key="html" value="12" />
+          <entry key="html" value="139" />
           <entry key="js" value="2" />
+          <entry key="json" value="1" />
           <entry key="md" value="1" />
           <entry key="sql" value="1" />
         </counts>
@@ -119,7 +172,8 @@
         <counts>
           <entry key="CSS" value="2" />
           <entry key="Go" value="6" />
-          <entry key="HTML" value="12" />
+          <entry key="HTML" value="139" />
+          <entry key="JSON" value="1" />
           <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SQL" value="1" />
@@ -130,61 +184,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/html/index_page.html">
+        <entry file="file://$PROJECT_DIR$/WebContent/html/myorder_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-              <folding>
-                <element signature="e#14#150#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-              <folding>
-                <marker date="1559668214731" expanded="true" signature="548:569" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/route_auth.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/navi.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/html/login_page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            <state relative-caret-position="75">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -192,37 +195,64 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/html/register_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+            <state relative-caret-position="-667" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/html/search_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/user.go">
+        <entry file="file://$PROJECT_DIR$/WebContent/html/shopinfo_page.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/html/shopmanage_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="91" column="61" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="61" />
+            <state relative-caret-position="90">
+              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/html/shopupload_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/WebContent/html/writeorder_page.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/html/mypaid_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            <state relative-caret-position="90">
+              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/setup.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/WebContent/html/pay_page.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/html/paysuccess_page.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -244,6 +274,8 @@
       <find>images</find>
       <find>ima</find>
       <find>Session</find>
+      <find>user</find>
+      <find>UserBy</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.11.5/libexec" />
@@ -253,57 +285,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WebContent/css/plugin.css" />
-        <option value="$PROJECT_DIR$/src/config.json" />
-        <option value="$PROJECT_DIR$/data/data.go" />
-        <option value="$PROJECT_DIR$/data/user.go" />
-        <option value="$PROJECT_DIR$/data/setup.sql" />
-        <option value="$PROJECT_DIR$/src/util.go" />
-        <option value="$PROJECT_DIR$/WebContent/html/layouts/public.navbar.html" />
-        <option value="$PROJECT_DIR$/WebContent/html/layouts/private.navbar.html" />
-        <option value="$PROJECT_DIR$/src/data/shop.go" />
-        <option value="$PROJECT_DIR$/src/data/transaction.go" />
-        <option value="$PROJECT_DIR$/src/data/book.go" />
-        <option value="$PROJECT_DIR$/src/data/book_in_cart.go" />
-        <option value="$PROJECT_DIR$/src/data/book_trade_record.go" />
-        <option value="$PROJECT_DIR$/src/data/order_form.go" />
-        <option value="$PROJECT_DIR$/src/data/address.go" />
-        <option value="$PROJECT_DIR$/src/data/book_comment.go" />
-        <option value="$PROJECT_DIR$/src/data/book_detail.go" />
-        <option value="$PROJECT_DIR$/src/util/util.go" />
-        <option value="$PROJECT_DIR$/src/util/const_num.go" />
-        <option value="$PROJECT_DIR$/src/data/book_snapshot.go" />
-        <option value="$PROJECT_DIR$/../Second-handBookTradeWebsite/src/main.go" />
-        <option value="$PROJECT_DIR$/../Second-handBookTradeWebsite/src/main/main.go" />
-        <option value="$PROJECT_DIR$/src/main/main.go" />
-        <option value="$PROJECT_DIR$/src/util.go" />
-        <option value="$PROJECT_DIR$/src/const_num.go" />
-        <option value="$PROJECT_DIR$/src/data/book_snapshot.go" />
-        <option value="$PROJECT_DIR$/src/data/const_num.go" />
-        <option value="$PROJECT_DIR$/WebContent/html/layouts/footer.html" />
-        <option value="$PROJECT_DIR$/src/config.json" />
-        <option value="$PROJECT_DIR$/src/utils.go" />
-        <option value="$PROJECT_DIR$/public/js/public.js" />
-        <option value="$PROJECT_DIR$/WebContent/html/layouts/navi.html" />
-        <option value="$PROJECT_DIR$/WebContent/html/layouts/navi.html" />
-        <option value="$PROJECT_DIR$/WebContent/html/layouts/header.html" />
-        <option value="$PROJECT_DIR$/WebContent/html/layouts/type_navi.html" />
-        <option value="$PROJECT_DIR$/WebContent/html/index_page.html" />
-        <option value="$PROJECT_DIR$/WebContent/html/index_page.html" />
-        <option value="$PROJECT_DIR$/public/css/mystyle.css" />
-        <option value="$PROJECT_DIR$/WebContent/html/layouts/index_main.html" />
-        <option value="$PROJECT_DIR$/WebContent/html/layouts/howshow.html" />
-        <option value="$PROJECT_DIR$/WebContent/html/layouts/title.html" />
-        <option value="$PROJECT_DIR$/src/route_main.go" />
-        <option value="$PROJECT_DIR$/src/route_main.go" />
-        <option value="$PROJECT_DIR$/WebContent/html/login_page.html" />
-        <option value="$PROJECT_DIR$/src/main.go" />
-        <option value="$PROJECT_DIR$/src/main.go" />
         <option value="$PROJECT_DIR$/src/route_auth.go" />
-        <option value="$PROJECT_DIR$/WebContent/html/register_page.html" />
-        <option value="$PROJECT_DIR$/src/data/setup.sql" />
-        <option value="$PROJECT_DIR$/src/data/user.go" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/orderbar.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/myaddress_page.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/writeorder_page.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/writeorder_main.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/step_bar.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/writeorder_address.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/writeorder_info.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/shopupload_main.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/shopmanage_main.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/shopinfo_page.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/paysuccess_page.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/pay_page.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/myorder_page.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/myinfo_page.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/writeorder_modifyaddress.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/shopinfo_main.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/searchshow.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/search_main.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/paysuccess_main.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/pay_main.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/mypaid_main.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/myinfo_main.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/myaddress_main.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/locateorder_receive_main.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/locateorder_pay_main.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/locateorder_finished_main.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/locateorder_comment_main.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/locateorder_address.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/howshow.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/hotshow.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/detail_main.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/comment_facebox.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/cart_main.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/keydetail.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/left.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/moredetail.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/myorder_main.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/myorder_pagebar.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/search_pagebar.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/layouts/writeorder_addaddress.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/cart_page.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/detail_page.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/locateorder_comment_page.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/locateorder_finished_page.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/locateorder_pay_page.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/locateorder_receive_page.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/mypaid_page.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/search_page.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/shopmanage_page.html" />
+        <option value="$PROJECT_DIR$/WebContent/html/shopupload_page.html" />
       </list>
     </option>
   </component>
@@ -329,6 +361,35 @@
             <path>
               <item name="Second-handBookTradeWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="SecondhandBookTradeWebsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Second-handBookTradeWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondhandBookTradeWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Second-handBookTradeWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondhandBookTradeWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Second-handBookTradeWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondhandBookTradeWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Second-handBookTradeWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondhandBookTradeWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Second-handBookTradeWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondhandBookTradeWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -404,7 +465,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08669109" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08669109" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -416,7 +477,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -454,263 +515,87 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/left.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/locateorder_address.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/locateorder_comment_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/locateorder_finished_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/locateorder_pay_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/locateorder_receive_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/moredetail.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="78" column="44" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/keydetail.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/myaddress_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/myorder_pagebar.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/myinfo_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/myorder_main.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/shopmanage_main.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/shopupload_main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        <state relative-caret-position="762">
+          <caret line="152" column="31" lean-forward="true" selection-start-line="152" selection-start-column="31" selection-end-line="152" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/step_bar.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/shopinfo_main.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/mypaid_main.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/book_comment.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/book_in_cart.go">
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/myorder_pagebar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/address.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/book.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/transaction.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/shop.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/order_form.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/data.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/book_trade_record.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/book_snapshot.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/const_num.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlinestore.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/book_detail.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/public.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="29" column="118" lean-forward="true" selection-start-line="29" selection-start-column="118" selection-end-line="29" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/pay_main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/img/cart.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/img/order.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/myinfo_main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/myorder_main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/mystyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="1946" column="21" lean-forward="true" selection-start-line="1946" selection-start-column="21" selection-end-line="1946" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/type_navi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1230">
-          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/private.navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/initial.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/howshow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/index_main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/public.navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/checkRegisterInfo.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/title.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/route_main.go">
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/mypaid_main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="18" selection-start-line="18" selection-end-line="34" />
-          <folding>
-            <element signature="e#14#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/html/index_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-          <folding>
-            <element signature="e#14#150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <marker date="1559668214731" expanded="true" signature="548:569" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/route_auth.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -721,40 +606,247 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/html/login_page.html">
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/orderbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        <state relative-caret-position="930">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/pay_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/paysuccess_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/private.navbar.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/public.navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/search_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/search_pagebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/searchshow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/shopinfo_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/shopmanage_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/shopupload_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/step_bar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/title.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/type_navi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1628" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/writeorder_addaddress.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/writeorder_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="114" column="5" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/writeorder_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/layouts/writeorder_modifyaddress.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/cart_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/detail_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/index_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/locateorder_comment_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/locateorder_finished_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/locateorder_pay_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/locateorder_receive_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/login_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/myaddress_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/myinfo_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/myorder_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/mypaid_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/pay_page.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/paysuccess_page.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/html/register_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+        <state relative-caret-position="-667" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/search_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/setup.sql">
+    <entry file="file://$PROJECT_DIR$/WebContent/html/shopinfo_page.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/shopmanage_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="90">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/user.go">
+    <entry file="file://$PROJECT_DIR$/WebContent/html/shopupload_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="91" column="61" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="61" />
+        <state relative-caret-position="105">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/WebContent/html/writeorder_page.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

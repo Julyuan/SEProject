@@ -11,7 +11,7 @@ int pageNow=(Integer)request.getAttribute("pageNow"); //当前页数
 int pageFrom=(Integer)request.getAttribute("pageFrom"); //页码起始数
 int pageTo=(Integer)request.getAttribute("pageTo"); //页码终止数
 %>
-
+{{define "orderbar"}}
 <div class="searchdiv1">
 
     <!-------- 显示排序条 -------->
@@ -59,3 +59,5 @@ int pageTo=(Integer)request.getAttribute("pageTo"); //页码终止数
     %>
 
 </div>
+
+{{end}}

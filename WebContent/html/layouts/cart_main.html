@@ -1,3 +1,4 @@
+{{define "cart_main"}}
 <%@page import="com.chicken.util.C"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
 pageEncoding="utf-8"%>
@@ -112,7 +113,7 @@ ArrayList<BookInCartBean> bookInCartBeanList=(ArrayList<BookInCartBean>)session.
             <a class="settlebtn" href="OrderClServlet?dowhat=writeorder">结算</a>
         </div>
     </div>
-    <script src="js/cart_main.js"></script>
+    <script src="/static/js/cart_main.js"></script>
     <script>
         $(document).ready(function(){
 
@@ -137,3 +138,4 @@ ArrayList<BookInCartBean> bookInCartBeanList=(ArrayList<BookInCartBean>)session.
 
         });
     </script>
+{{end}}

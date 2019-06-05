@@ -22,6 +22,6 @@ create table sessions(
   id       serial primary key,
   uuid     varchar (64) not null unique,
   Uemail    varchar (255),
-  Uid  integer references user(id),
+  Uid  integer references user(Uid),
   created_at timestamp not null
 );

@@ -1,3 +1,4 @@
+{{define "myorder_pagebar"}}
 <%@page import="com.chicken.util.C"%>
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <%
@@ -7,7 +8,7 @@ int pageFrom=(Integer)request.getAttribute("pageFrom"); //页码起始数
 int pageTo=(Integer)request.getAttribute("pageTo"); //页码终止数
 %>
 
-<script type="text/javascript" src="js/checkJumpPageInfo.js"></script>
+<script type="text/javascript" src="/static/js/checkJumpPageInfo.js"></script>
 
 <div class="searchdiv2">
     <%
@@ -62,3 +63,4 @@ int pageTo=(Integer)request.getAttribute("pageTo"); //页码终止数
     %>
 
 </div>
+{{end}}

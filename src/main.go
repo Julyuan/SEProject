@@ -16,6 +16,7 @@ func main(){
 	mux.ServeFiles("/static/*filepath",http.Dir(config.Static))
 	mux.GET("/",index)
 	mux.GET("/login",login)
+	mux.POST("/login/authenticate", authenticate)
 	mux.GET("/register",register)
 	mux.POST("/",handle_post)
 	mux.POST("/register/verify",register_verify)

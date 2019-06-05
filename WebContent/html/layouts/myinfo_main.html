@@ -1,3 +1,4 @@
+{{define "myinfo_main"}}
 <%@page import="com.chicken.model.UserBean"%>
 <%@page import="java.util.Date"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
@@ -96,3 +97,4 @@ UserBean userBean = (UserBean) request.getAttribute("userBean");
         </div><!--contentline-->
     </div>
 </div>
+{{end}}
