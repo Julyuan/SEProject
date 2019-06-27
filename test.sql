@@ -1,0 +1,2 @@
+select count(*) from book,shop,transaction where book.Bid = "chichi_00001" and book.Bid = transaction.Bid and Tstatus >= 3 and book.Sid=shop.Sid limit 1;
+select avg(Tmark) from book,shop,transaction where book.Bid = "chichi_00001" and book.Bid = transaction.Bid and Tstatus >= 1 and book.Sid=shop.Sid limit 1;

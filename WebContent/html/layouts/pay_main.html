@@ -1,31 +1,30 @@
 {{define "pay_main"}}
-<%@page import="java.util.ArrayList"%>
-<%@page import="com.chicken.model.OrderFormBean"%>
-<%@page import="java.util.List"%>
-<%@ page language="java" contentType="text/html; charset=utf-8"
-pageEncoding="utf-8"%>
+{{/*<%@page import="java.util.ArrayList"%>*/}}
+{{/*<%@page import="com.chicken.model.OrderFormBean"%>*/}}
+{{/*<%@page import="java.util.List"%>*/}}
+{{/*<%@ page language="java" contentType="text/html; charset=utf-8"*/}}
+{{/*pageEncoding="utf-8"%>*/}}
 
-<%
-//获取订单表，并统计总金额
-String username = (String)session.getAttribute("username");
-List<OrderFormBean> orderBeanList=(ArrayList<OrderFormBean>)session.getAttribute(username+"_orderBeanList");
-    String result = (String) request.getAttribute("result");
+{{/*<%*/}}
+{{/*//获取订单表，并统计总金额*/}}
+{{/*String username = (String)session.getAttribute("username");*/}}
+{{/*List<OrderFormBean> orderBeanList=(ArrayList<OrderFormBean>)session.getAttribute(username+"_orderBeanList");*/}}
+    {{/*String result = (String) request.getAttribute("result");*/}}
 
-    float payTotal=0.0f; //需支付的总费用
-    if(result.equals("SUCCESS"))
-    {
-    for(int i=0;i<orderBeanList.size();i++)
-    {
-    OrderFormBean orderBean = orderBeanList.get(i);
-    payTotal += orderBean.getOtotalbooksprice() + orderBean.getOtotaltransprice();
-    }
-    }
-    %>
+    {{/*float payTotal=0.0f; //需支付的总费用*/}}
+    {{/*if(result.equals("SUCCESS"))*/}}
+    {{/*{*/}}
+    {{/*for(int i=0;i<orderBeanList.size();i++)*/}}
+    {{/*{*/}}
+    {{/*OrderFormBean orderBean = orderBeanList.get(i);*/}}
+    {{/*payTotal += orderBean.getOtotalbooksprice() + orderBean.getOtotaltransprice();*/}}
+    {{/*}*/}}
+    {{/*}*/}}
+    {{/*%>*/}}
 
     <div class="paymain">
 
-        <jsp:include page="step_bar.jsp" flush="true"/>
-
+        {{/*{{template "step_bar"}}*/}}
 
         <!-- 支付主体 -->
 

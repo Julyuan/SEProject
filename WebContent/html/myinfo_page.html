@@ -1,23 +1,22 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-pageEncoding="utf-8"%>
-<%@page import="com.chicken.util.C"%>
+{{define "myinfo_page"}}
+
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html;" charset="utf-8">
     <link href="/static/css/mystyle.css" type="text/css" rel="stylesheet">
     <script type="text/javascript" src="/static/js/public.js"></script>
     <title>个人信息</title>
 </head>
 <body>
 
-<!-- 导航条 -->
+{{/*<!-- 导航条 -->*/}}
 {{template "navi"}}
 
-<!-- 头部 -->
+{{/*<!-- 头部 -->*/}}
 {{template "header"}}
 
 <!-- 主体-->
-{{template "myinfo_main"}}
+{{template "myinfo_main" .}}
 
 <!-- 尾部-->
 {{template "footer"}}
@@ -26,3 +25,4 @@ pageEncoding="utf-8"%>
 <script src="/static/js/myinfo_main.js"></script>
 </body>
 </html>
+{{end}}

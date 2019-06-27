@@ -1,0 +1,18 @@
+ERROR 2019/06/08 11:21:12 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning Uid' at line 1 Cannot create user
+ERROR 2019/06/08 11:28:26 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning Uid' at line 1 Cannot create user
+ERROR 2019/06/08 11:32:58 utils.go:100: Error 1054: Unknown column '$1' in 'field list' Cannot create user
+ERROR 2019/06/08 11:36:10 utils.go:100: Error 1054: Unknown column '$1' in 'field list' Cannot create user
+ERROR 2019/06/08 11:47:00 utils.go:100: sql: no rows in result set Cannot create user
+ERROR 2019/06/08 11:51:24 utils.go:100: Error 1062: Duplicate entry '12345' for key 'PRIMARY' Cannot create user
+ERROR 2019/06/08 11:52:16 utils.go:100: sql: no rows in result set Cannot create user
+ERROR 2019/06/08 11:54:57 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning Uid' at line 1 Cannot create user
+ERROR 2019/06/08 12:24:18 utils.go:100: Error 1146: Table 'online_shop.users' doesn't exist Cannot find user
+ERROR 2019/06/08 12:28:12 utils.go:100: Error 1054: Unknown column 'uuid' in 'where clause' Cannot find user
+ERROR 2019/06/08 12:28:43 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, Uemail, Uid, created_at' at line 1 Cannot create session
+ERROR 2019/06/08 12:35:27 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, Uemail, Uid, created_at' at line 1 Cannot create session
+ERROR 2019/06/08 12:36:43 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, Uemail, Uid, created_at' at line 1 Cannot create session
+ERROR 2019/06/08 12:41:26 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, Uemail, Uid, created_at' at line 1 Cannot create session
+ERROR 2019/06/08 12:51:47 utils.go:100: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, Uemail, Uid, created_at' at line 1 Cannot create session
+ERROR 2019/06/08 12:52:41 utils.go:100: Error 1054: Unknown column 'create_at' in 'field list' Cannot create session
+ERROR 2019/06/08 12:53:10 utils.go:100: sql: Scan error on column index 2, name "Uemail": converting driver.Value type []uint8 ("") to a int: invalid syntax Cannot create session
+ERROR 2019/06/08 13:50:09 utils.go:100: sql: Scan error on column index 4, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot create session

@@ -1,15 +1,16 @@
 package data
 
 type BookInCart struct {
-	Id string
-	Image string
-	Price float64
-	Name string
-	ShopId int
-	Icon string
-	ShopName string
-	OriPrice float64
-	BoughtNum int
-	Status int
+	Bid string
+	Bimage string
+	Bprice float64
+	Bname string
+	Sid int
+	Sicon string
+	Sname string
+	Boriprice float64
+	Tboughtnum int
+	Tstatus int
 	Checked bool
 }
+

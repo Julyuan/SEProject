@@ -22,13 +22,13 @@ type Session struct {
 	Id     int
 	Uuid   string
 	Uemail  string
-	Uid     int
+	Uid     string
 	CreatedAt  time.Time
 }
 
 func (user *User) CreateSession()(session Session, err error){
 	statement := "insert into sessions (uuid, Uemail, Uid, created_at) "+
-		"values ($1, $2, $3, $4) returning id, uuid, Uemail, Uid, created_at"
+		"values (?, ?, ?, ?)"
 
 	stmt, err := Db.Prepare(statement)
 
@@ -37,10 +37,18 @@ func (user *User) CreateSession()(session Session, err error){
 	}
 
 	defer  stmt.Close()
+	uuid := createUUID()
+	_,err = stmt.Exec(uuid, user.Uemail, user.Uid, time.Now())
 
-	err = stmt.QueryRow(createUUID(), user.Uemail, user.Uid, time.Now()).
-		Scan(&session.Id, &session.Uuid, &session.Uid, &session.Uemail, &session.CreatedAt)
+	statement1 := "select id, uuid, Uemail, Uid, created_at from sessions where uuid=? "
+	stmt1,err := Db.Prepare(statement1)
 
+	if err != nil{
+		return
+	}
+	defer stmt1.Close()
+
+	err	= stmt1.QueryRow(uuid).Scan(&session.Id, &session.Uuid, &session.Uid, &session.Uemail, &session.CreatedAt)
 	return
 }
 
@@ -53,8 +61,9 @@ func (user *User) Session() (session Session, err error){
 
 func (session *Session) Check()(valid bool, err error){
 	fmt.Println("call check function")
-	fmt.Println("uuid is equal to",session.Uuid)
-	err = Db.QueryRow("SELECT id, uuid, Uemail, Uid, created_at FROM sessions WHERE Uuid = $1", session.Uuid).
+	//fmt.Println("uuid is equal to",session.Uuid)
+	//fmt.Println("SELECT id, uuid, Uemail, Uid, created_at FROM sessions WHERE uuid = "+session.Uuid)
+	err = Db.QueryRow("SELECT id, uuid, Uemail, Uid, created_at FROM sessions WHERE uuid = "+"\""+session.Uuid+"\"").
 		Scan(&session.Id, &session.Uuid, &session.Uemail, &session.Uid, &session.CreatedAt)
 
 	if err != nil {
@@ -88,7 +97,7 @@ func(session *Session) DeleteByUUID()(err error){
 
 func (session *Session)User()(user User, err error){
 	user = User{}
-	err = Db.QueryRow("SELECT Uid, Urealname, Uemail FROM user WHERE Uid = $1", session.Uid).
+	err = Db.QueryRow("SELECT Uid, Urealname, Uemail FROM user WHERE Uid = ?", session.Uid).
 		Scan(&user.Uid, &user.Urealname, &user.Uemail)
 	if(err != nil){
 		fmt.Println(err.Error())
@@ -104,9 +113,8 @@ func SessionDeleteAll()(err error){
 
 
 func (user *User) Create() (err error){
-	statement := "insert into user (Uid, Upassword) values ($1, $2)"+
-		"returning Uid"
-
+	statement := "insert into user (Uid, Upassword) values (?, ?)"
+	fmt.Print("user.Uid ",user.Uid," user.Upassword ",user.Upassword,"\n")
 	stmt, err := Db.Prepare(statement)
 	if err != nil{
 		return
@@ -114,13 +122,13 @@ func (user *User) Create() (err error){
 
 	defer stmt.Close()
 
-	err = stmt.QueryRow(user.Urealname,user.Upassword).Scan(&user.Uid)
+	_, err = stmt.Exec(user.Uid,user.Upassword)
 	return
 }
 
 
 func (user *User)Delete() (err error){
-	statement := "delete from user where Uid = $1"
+	statement := "delete from user where Uid = ?"
 	stmt, err := Db.Prepare(statement)
 	if err != nil{
 		return
@@ -133,7 +141,7 @@ func (user *User)Delete() (err error){
 
 // Update user information in the database
 func (user *User) Update() (err error) {
-	statement := "update user set Ureadlname = $2, Uemail = $3 where Uid = $1"
+	statement := "update user set Ureadlname = ?, Uemail = ? where Uid = ?"
 	stmt, err := Db.Prepare(statement)
 	if err != nil {
 		return
@@ -182,7 +190,7 @@ func UserByEmail(email string) (user User, err error){
 // Get a single user given the UUID
 func UserByUid(Uid string) (user User, err error) {
 	user = User{}
-	err = Db.QueryRow("SELECT Uid, Urealname, Uemail, Upassword FROM users WHERE uuid = $1", Uid).
+	err = Db.QueryRow("SELECT Uid, Urealname, Uemail, Upassword FROM user WHERE Uid = ?", Uid).
 		Scan(&user.Uid, &user.Urealname, &user.Uemail, &user.Upassword)
 	return
 }

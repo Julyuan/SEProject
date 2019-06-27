@@ -5,7 +5,7 @@ import (
 	"crypto/sha1"
 	"database/sql"
 	"fmt"
-	_ "github.com/lib/pq"
+	_ "github.com/go-sql-driver/mysql"
 	"log"
 )
 
@@ -13,7 +13,7 @@ var Db *sql.DB
 
 func init(){
 	var err error
-	Db, err = sql.Open("postgres", "user=postgres password=jly19971108 port=5432 dbname=minichat sslmode=disable")
+	Db, err = sql.Open("mysql", "root:jly19971108@/online_shop?parseTime=true")
 	if err != nil{
 		fmt.Println("open database error")
 		log.Fatal(err)

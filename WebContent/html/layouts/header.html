@@ -4,17 +4,17 @@
     <ul>
         <li class="li1"><img src="/static/css/img/logo.png"/></li>
         <li class="li2">
-            <form action="SearchClServlet" method="get">
+            <form action="search" method="get">
                 <input type="text" name="key" autofocus="autofocus" class="search_edit" autocomplete="off" placeholder="书名/作者/内容/店家/出版社">
                 <input type="submit" value="搜索" class="search_btn font_normal_white">
                 <!-- 隐藏参数 -->
                 <input type="hidden" name="dowhat" value="searchByKey">
-                <input type="hidden" name="way" value="byPageFirst">
-                <input type="hidden" name="refer" value="Bid">
-                <input type="hidden" name="pageCount" value="1">
-                <input type="hidden" name="pageNow" value="1">
-                <input type="hidden" name="pageFrom" value="1">
-                <input type="hidden" name="pageTo" value="1">
+                {{/*<input type="hidden" name="way" value="byPageFirst">*/}}
+                {{/*<input type="hidden" name="refer" value="Bid">*/}}
+                {{/*<input type="hidden" name="pageCount" value="1">*/}}
+                {{/*<input type="hidden" name="pageNow" value="1">*/}}
+                {{/*<input type="hidden" name="pageFrom" value="1">*/}}
+                {{/*<input type="hidden" name="pageTo" value="1">*/}}
             </form>
         </li>
         <li class="li3  font_normal_white">二维码</li>

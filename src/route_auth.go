@@ -30,6 +30,7 @@ func login(writer http.ResponseWriter, request *http.Request, p httprouter.Param
 func authenticate(writer http.ResponseWriter, request *http.Request, p httprouter.Params){
 	err := request.ParseForm()
 	user, err := data.UserByUid(request.PostFormValue("username"))
+	fmt.Print("Uid ",user.Uid, " Upassword ",user.Upassword,"\n")
 	if err != nil{
 		danger(err, "Cannot find user")
 	}
@@ -43,6 +44,7 @@ func authenticate(writer http.ResponseWriter, request *http.Request, p httproute
 			Value: session.Uuid,
 			HttpOnly: true,
 		}
+		fmt.Println("session uuid "+session.Uuid)
 		http.SetCookie(writer, &cookie)
 		http.Redirect(writer, request, "/", 302)
 	}else{
@@ -65,14 +67,16 @@ func register_verify(writer http.ResponseWriter, request *http.Request, p httpro
 		Upassword:	request.PostFormValue("password"),
 	}
 
+	//fmt.Print(user.Uid," ",user.Upassword,"\n")
+
 	if err := user.Create(); err != nil{
 		danger(err, "Cannot create user")
 		fmt.Fprintf(writer,`{
-			"status":fail
+			"status":"fail"
 		}`)
 	} else{
 		fmt.Fprintf(writer,	`{
-			"status":success	
+			"status":"success"	
 		}`)
 	}
 

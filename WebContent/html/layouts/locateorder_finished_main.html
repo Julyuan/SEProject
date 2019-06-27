@@ -1,17 +1,17 @@
 {{define "locateorder_finished_main"}}
-<%@page import="com.chicken.model.OrderFormBean"%>
-<%@page import="com.chicken.model.AddressBean"%>
-<%@page import="com.chicken.model.BookInCartBean"%>
-<%@page import="java.util.List"%>
-<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+{{/*<%@page import="com.chicken.model.OrderFormBean"%>*/}}
+{{/*<%@page import="com.chicken.model.AddressBean"%>*/}}
+{{/*<%@page import="com.chicken.model.BookInCartBean"%>*/}}
+{{/*<%@page import="java.util.List"%>*/}}
+{{/*<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>*/}}
 
-<%
-//获取订单
-OrderFormBean orderBean = (OrderFormBean)request.getAttribute("orderBean");
-%>
+{{/*<%*/}}
+{{/*//获取订单*/}}
+{{/*OrderFormBean orderBean = (OrderFormBean)request.getAttribute("orderBean");*/}}
+{{/*%>*/}}
 
 <div class="queryordermain">
-    <jsp:include page="step_bar.jsp" flush="true"/>
+    {{/*{{template "step_bar"}}*/}}
     <div style="text-align: center"> <!-- 步骤对应的时间 -->
         <div class="steptime"></div>
         <div class="steptime"><%=orderBean.getOsubmittime()%></div>
@@ -23,8 +23,7 @@ OrderFormBean orderBean = (OrderFormBean)request.getAttribute("orderBean");
 
     <ul class="orderinfo_ul">
 
-        <jsp:include page="locateorder_address.jsp" flush="true"/>
-
+        {{/*{{template "locateorder_address"}}*/}}
         <li>
             <span class="font_bold_black">商品清单：</span><br>
 

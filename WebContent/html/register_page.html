@@ -5,7 +5,7 @@
 
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html;" charset="utf-8">
     <link href="/static/css/mystyle.css" type="text/css" rel="stylesheet">
     <title>注册</title>
     <script type="text/javascript" src="/static/js/checkRegisterInfo.js"></script>
@@ -68,11 +68,15 @@
 <script>
 $("button#register_button").click(
     function() {
-        alert("123");
     $.post("/register/verify",
             {username:$("#id_username").val(), password:$("#id_password").val()},
             function (result) {
-            alert(result);
+            alert(result)
+             res_obj = JSON.parse(result);
+             if(res_obj.status=="success")
+                 alert("注册成功");
+             else
+                 alert("注册失败");
            });
 });
 </script>

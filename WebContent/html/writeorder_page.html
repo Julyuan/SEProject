@@ -1,7 +1,7 @@
-
+{{define "writeorder_page"}}
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html;" charset="utf-8">
     <link href="/static/css/mystyle.css" type="text/css" rel="stylesheet">
     <title>填写订单</title>
 
@@ -14,7 +14,7 @@
 {{template "header"}}
 
 <!-- 主体-->
-{{template "writerorder_main"}}
+{{template "writeorder_main" .}}
 
 <!-- 尾部-->
 {{template "footer"}}
@@ -23,3 +23,4 @@
 <script type="text/javascript" src="/static/js/writeorder_main.js"></script>
 </body>
 </html>
+{{end}}

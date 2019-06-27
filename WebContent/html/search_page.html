@@ -1,7 +1,7 @@
 {{define "search_page"}}
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html;" charset="utf-8">
     <link href="/static/css/mystyle.css" type="text/css" rel="stylesheet">
     <script type="text/javascript" src="/static/js/public.js"></script>
     <title>挑选书籍</title>
@@ -12,7 +12,7 @@
 <!-- 头部 -->
 {{template "header"}}
 <!-- 主体-->
-{{template "search_main"}}
+{{template "search_main" .}}
 <!-- 尾部-->
 {{template "footer"}}
 </body>

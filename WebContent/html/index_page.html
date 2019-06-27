@@ -8,10 +8,11 @@
     <title>旧书交易网</title>
 </head>
 <body>
-    {{template "navi"}}
-    {{template "header"}}
-    {{template "index_main"}}
-    {{template "footer"}}
+
+    {{template "navi" .User}}
+    {{template "header" .}}
+    {{template "index_main" .Booksnapshots}}
+    {{template "footer" .}}
 <script type="text/javascript" src="/static/js/public.js"></script>
 </body>
 </html>

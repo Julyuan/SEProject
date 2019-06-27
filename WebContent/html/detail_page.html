@@ -1,19 +1,14 @@
-<%@page import="com.chicken.util.C"%>
-<%@ page language="java" contentType="text/html; charset=utf-8"
-pageEncoding="utf-8"%>
+{{define "detail_page"}}
+
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
     <link href="/static/css/mystyle.css" type="text/css" rel="stylesheet">
     <script type="text/javascript" src="/static/js/jquery/jquery.js"></script>
 
     <title>书籍详情</title>
 </head>
 <body>
-<%
-//token标记(添加至购物车页面提交后，如果刷新会重复提交表单)
-session.setAttribute(C.DETAIL_TOKEN, true);
-%>
 
 <!-- 导航条 -->
 {{template "navi"}}
@@ -22,11 +17,12 @@ session.setAttribute(C.DETAIL_TOKEN, true);
 {{template "header"}}
 
 <!-- 主体-->
-{{template "detail_main"}}
+{{template "detail_main" .}}
 
 <!-- 尾部-->
 {{template "footer"}}
 
-<script type="text/javascript" src="js/public.js"></script>
+<script type="text/javascript" src="/static/js/public.js"></script>
 </body>
 </html>
+{{end}}

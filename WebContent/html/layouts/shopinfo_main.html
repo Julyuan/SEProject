@@ -1,34 +1,34 @@
-{{define "shopinfo"}}
-<%@page import="com.chicken.model.ShopBean"%>
-<%@page import="com.chicken.util.C"%>
-<%@ page language="java" contentType="text/html; charset=utf-8"
-pageEncoding="utf-8"%>
+{{define "shopinfo_main"}}
+{{/*<%@page import="com.chicken.model.ShopBean"%>*/}}
+{{/*<%@page import="com.chicken.util.C"%>*/}}
+{{/*<%@ page language="java" contentType="text/html; charset=utf-8"*/}}
+{{/*pageEncoding="utf-8"%>*/}}
 
-<%
-ShopBean shopBean = (ShopBean) request.getAttribute("shopBean");
-int sid = (Integer) request.getAttribute("Sid"); //验证是否开店
-%>
+{{/*<%*/}}
+{{/*ShopBean shopBean = (ShopBean) request.getAttribute("shopBean");*/}}
+{{/*int sid = (Integer) request.getAttribute("Sid"); //验证是否开店*/}}
+{{/*%>*/}}
 
 <div id="inner">
 
     <!-- 左侧导航栏 -->
-    <jsp:include page="left.jsp" flush="true"><jsp:param name="curSelected" value="shopinfo" /></jsp:include>
+    {{/*<jsp:include page="left.jsp" flush="true"><jsp:param name="curSelected" value="shopinfo" /></jsp:include>*/}}
 
     <!-- 右侧内容 -->
     <div class="right">
 
-        <%
-        if(sid == C.OPENED_SHOP_NO) //没有开店,显示“我要开店”按钮
-        {
-        %>
-        <div class="uploaddiv">
-            <a href="ShopInfoClServlet?dowhat=openShop" class="greenbutton" onclick="return window.confirm('您确定要开店?');">我要开店</a>
-        </div>
-        <%
-        }
-        else //已开店，显示店铺信息
-        {
-        %>
+        {{/*<%*/}}
+        {{/*if(sid == C.OPENED_SHOP_NO) //没有开店,显示“我要开店”按钮*/}}
+        {{/*{*/}}
+        {{/*%>*/}}
+        {{/*<div class="uploaddiv">*/}}
+            {{/*<a href="ShopInfoClServlet?dowhat=openShop" class="greenbutton" onclick="return window.confirm('您确定要开店?');">我要开店</a>*/}}
+        {{/*</div>*/}}
+        {{/*<%*/}}
+        {{/*}*/}}
+        {{/*else //已开店，显示店铺信息*/}}
+        {{/*{*/}}
+        {{/*%>*/}}
         <div class="divline" style="font-size:15px;">店铺信息</div><!--divline-->
         <div class="contentline" style="font-size:14px;"><br>
 
@@ -79,9 +79,9 @@ int sid = (Integer) request.getAttribute("Sid"); //验证是否开店
             </form>
 
         </div><!--contentline-->
-        <%
-        }
-        %>
+        {{/*<%*/}}
+        {{/*}*/}}
+        {{/*%>*/}}
     </div>
 </div>
 {{end}}

@@ -1,19 +1,20 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-pageEncoding="utf-8"%>
-<%@page import="com.chicken.util.C"%>
+{{/*<%@ page language="java" contentType="text/html; charset=utf-8"*/}}
+{{/*pageEncoding="utf-8"%>*/}}
+{{/*<%@page import="com.chicken.util.C"%>*/}}
+{{define "pay_page"}}
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html;" charset="utf-8">
     <link href="/static/css/mystyle.css" type="text/css" rel="stylesheet">
     <title>支付订单</title>
 
 </head>
 <body>
 
-<%
-//避免重复支付
-session.setAttribute(C.PAY_TOKEN, true);
-%>
+{{/*<%*/}}
+{{/*//避免重复支付*/}}
+{{/*session.setAttribute(C.PAY_TOKEN, true);*/}}
+{{/*%>*/}}
 
 <!-- 导航条 -->
 {{template "navi"}}
@@ -31,3 +32,4 @@ session.setAttribute(C.PAY_TOKEN, true);
 <script type="text/javascript" src="/static/js/pay_main.js"></script>
 </body>
 </html>
+{{end}}

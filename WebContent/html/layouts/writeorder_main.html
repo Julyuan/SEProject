@@ -2,8 +2,8 @@
 
 <div class="writeordermain">
     {{template "step_bar"}}
-    {{template "writeorder_address"}}
-    {{template "writeorder_info"}}
+    {{template "writeorder_address" .}}
+    {{template "writeorder_info" .Woderform.BookInCartList}}
 </div>
 
 {{end}}
